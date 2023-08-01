@@ -1,0 +1,130 @@
+
+#titulo {color: tomato;}
+p.texto {color:  blueviolet;}
+p.especial{color: green;}
+div p {color: aquamarine;}
+div h2, div h3{ color: brown;}
+*{font-size: 24px;}
+/*EJEMPLO 1 esta opcion es para colocar diferentes estilos a textos en especifico */
+
+.color{border-style: solid;
+border-color: red;
+border-radius: 5px;
+border-width: 5px;}
+/* EJEMPLO 2 esta opcion es para dar poner un borde a algun texto */
+/*dotted
+dashed
+solid
+double
+groove
+ridge
+inset
+utset
+none
+hidden*/
+
+#fondo {background-color: red;
+    height: 200px;
+background: red url(duende.jpg) repeat-y center bottom / 100px 100px;}
+/* EJEMPLO 3 esta opcion es para poner un color o imagne de fondo*/
+.margen{background-color: chocolate;
+margin: 15px ;
+padding: 30px 15px 5px;
+border: solid 1px black;
+height: 100px;
+width: 200px;
+overflow: scroll;
+outline: 1px solid red;}
+/* EJEMPLO 4 esta opcion es para los diferentes estilos de algun texto*/
+
+.text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    text-decoration: overline;
+    text-shadow: 3px 5px 5px blue;}
+    /* EJEMPLO 5 esta opcion es para los diferentes estilos de algun texto*/
+
+    a:link{color: blueviolet;}
+a:visited{color: brown;}
+a:hover{color: chartreuse;}
+a:active{color: red;}
+/*EJEMPLO 6 estas opciones son para los botones*/  
+
+UL{background-color: aqua;
+list-style: circle;
+/*padding-left: 0;*/
+/*-style-position: inside;*/}
+/*EJEMPLO 7 estas opciones son para las opciones de listas*/ 
+
+table{
+    width: 100%;
+    border-collapse:  collapse;
+}
+th, td{border: solid 1px black ;
+    padding: 5px ;}
+
+th{background-color: tomato;
+    color: white;
+text-align: left;}
+
+tr:nth-child(odd){background-color: blueviolet;}
+
+tr:hover{background-color: green;
+cursor: pointer;}
+/*EJEMPLO 8 estas opciones son para las opciones de tablas*/ 
+
+span{display: block;
+    /*display: none;*/
+    /* visibility: hidden; */
+    max-width:200px;
+background-color: rebeccapurple;}
+.inline{display: inline;}
+/*EJEMPLO 9 estas opciones son para textos que pueden ser colocados uno sobre el otro*/ 
+
+#position{
+    position: sticky;
+    left: 20px;
+    top: 25px;
+}/*EJEMPLO 10 estas opciones
+ puedne hacer que un texto siga la barra o que se quede pegado en su lugar y que siga bajando*/ 
+
+ .left{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+.right{float: right;}
+
+.container{height: 200px;}
+/*EJEMPLO 11 estas opciones son para saber como colocar un texto a la derecha o a la izquierda*/ 
+
+.column{
+margin: 0;
+padding: 10´x 0;
+width: 33.3%;}
+/*EJEMPLO 12 No supe hacer esta, preguntar al vital*/ 
+
+
+.inline-block{
+    display: inline-block;
+    height: 55px;
+    background-color: red;}
+/*EJEMPLO 13 los inline blocks se les puede poner ancho y alto y a las inlne solas, no*/ 
+
+.center{width: 200px;
+margin: 0 auto;
+background-color: aqua;
+text-align: center;
+padding: 50px 0;}
+/*EJEMPLO 14 como centrar un objeto y el fondo*/ 
+
+
+
+
+
+
+
+
+
+
+
